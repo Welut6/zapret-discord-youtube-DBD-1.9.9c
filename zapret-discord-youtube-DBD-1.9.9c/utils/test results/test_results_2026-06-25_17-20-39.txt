@@ -1,0 +1,663 @@
+﻿
+Config: general (ALT).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  YouTubeWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  YouTubeVideoRedirect : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 18 ms
+  Quad9DNS9999 :  | Ping: 31 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 129 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 235 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 42 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 45 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 903 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 277 ms
+  DBDGameliftAPSE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 284 ms
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: Timeout
+
+Config: general (ALT2).bat (Type: standard)
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DiscordGateway : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 18 ms
+  Quad9DNS9999 :  | Ping: 37 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 129 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 234 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 42 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 44 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 276 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: Timeout
+
+Config: general (ALT3).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 21 ms
+  GoogleDNS8844 :  | Ping: 18 ms
+  Quad9DNS9999 :  | Ping: 32 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  DBDGameliftUSEast2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 235 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 42 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 918 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 218 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 281 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: Timeout
+
+Config: general (ALT4).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 21 ms
+  GoogleDNS8844 :  | Ping: 18 ms
+  Quad9DNS9999 :  | Ping: 29 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 230 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 57 ms
+  DBDGameliftEUCentral1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 42 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 218 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 282 ms
+  DBDGameliftAPSE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 276 ms
+  DBDGameliftSAEast1 : HTTP:ERROR TLS1.2:OK    TLS1.3:OK    | Ping: 949 ms
+
+Config: general (ALT5).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  YouTubeShort : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 14 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 21 ms
+  GoogleDNS8844 :  | Ping: 18 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 129 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 231 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 55 ms
+  DBDGameliftEUCentral1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 42 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 293 ms
+  DBDGameliftAPSE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 275 ms
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+
+Config: general (ALT6).bat (Type: standard)
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DiscordGateway : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 18 ms
+  Quad9DNS9999 :  | Ping: 29 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  DBDGameliftUSEast2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 231 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 58 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 42 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 44 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 246 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 924 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 276 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:ERROR | Ping: Timeout
+
+Config: general (ALT7).bat (Type: standard)
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DiscordGateway : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 17 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 17 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 31 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 127 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 230 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 56 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 950 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 266 ms
+  DBDGameliftAPNE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 218 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 600 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 942 ms
+
+Config: general (ALT8).bat (Type: standard)
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DiscordGateway : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 17 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 17 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 29 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 230 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 266 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 284 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 289 ms
+  DBDGameliftSAEast1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 980 ms
+
+Config: general (ALT9).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  YouTubeWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  YouTubeVideoRedirect : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 230 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 57 ms
+  DBDGameliftEUCentral1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 42 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 44 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 278 ms
+  DBDGameliftAPSE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 289 ms
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:ERROR | Ping: 982 ms
+
+Config: general (ALT10).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:ERROR TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:ERROR TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 21 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 234 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 57 ms
+  DBDGameliftEUCentral1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 42 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 941 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 246 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 276 ms
+  DBDGameliftAPSE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 289 ms
+  DBDGameliftSAEast1 : HTTP:ERROR TLS1.2:OK    TLS1.3:OK    | Ping: 966 ms
+
+Config: general (ALT11).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  YouTubeWeb : HTTP:OK    TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 20 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 21 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 29 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  DBDGameliftUSEast2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 139 ms
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 234 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 220 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 41 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 47 ms
+  DBDGameliftAPSouth1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:OK    | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 276 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 287 ms
+  DBDGameliftSAEast1 : HTTP:ERROR TLS1.2:OK    TLS1.3:ERROR | Ping: 923 ms
+
+Config: general (ALT12).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  YouTubeWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 20 ms
+  YouTubeVideoRedirect : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 234 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 220 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 58 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 940 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:ERROR TLS1.2:OK    TLS1.3:OK    | Ping: 505 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 922 ms
+
+Config: general (FAKE TLS AUTO ALT).bat (Type: standard)
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DiscordGateway : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 20 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 231 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 220 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 57 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 267 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 355 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 287 ms
+  DBDGameliftSAEast1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 974 ms
+
+Config: general (FAKE TLS AUTO ALT2).bat (Type: standard)
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DiscordGateway : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 20 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 129 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 231 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 219 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 932 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 266 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 276 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftSAEast1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 964 ms
+
+Config: general (FAKE TLS AUTO ALT3).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  YouTubeWeb : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 14 ms
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 20 ms
+  YouTubeVideoRedirect : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 129 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 231 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 45 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 885 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 266 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 281 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftSAEast1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:OK    | Ping: 983 ms
+
+Config: general (FAKE TLS AUTO).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  YouTubeWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 20 ms
+  YouTubeVideoRedirect : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 18 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 129 ms
+  DBDGameliftUSEast2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 231 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 41 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 45 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 889 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 218 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 281 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 288 ms
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 974 ms
+
+Config: general (SIMPLE FAKE ALT).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 17 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 18 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 21 ms
+  GoogleDNS8844 :  | Ping: 21 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 127 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 139 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 231 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 218 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 41 ms
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 45 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 917 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 218 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:ERROR | Ping: 551 ms
+  DBDGameliftAPSE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 288 ms
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 963 ms
+
+Config: general (SIMPLE FAKE ALT2).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 18 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 18 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 21 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 127 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 234 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 217 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 44 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 935 ms
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 218 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:ERROR TLS1.3:ERROR | Ping: 633 ms
+  DBDGameliftAPSE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 287 ms
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:ERROR | Ping: 982 ms
+
+Config: general (SIMPLE FAKE).bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 14 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 28 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  DBDGameliftUSEast2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 140 ms
+  DBDGameliftUSWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 234 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 220 ms
+  DBDGameliftEUWest1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 57 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 47 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 245 ms
+  DBDGameliftAPNE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 218 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 487 ms
+  DBDGameliftAPSE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 277 ms
+  DBDGameliftSAEast1 : HTTP:ERROR TLS1.2:OK    TLS1.3:ERROR | Ping: 988 ms
+
+Config: general.bat (Type: standard)
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DiscordGateway : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 2 ms
+  YouTubeWeb : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  YouTubeShort : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 17 ms
+  YouTubeImage : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 14 ms
+  YouTubeVideoRedirect : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 15 ms
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 17 ms
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 15 ms
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 2 ms
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 3 ms
+  CloudflareDNS1111 :  | Ping: 3 ms
+  CloudflareDNS1001 :  | Ping: 2 ms
+  GoogleDNS8888 :  | Ping: 20 ms
+  GoogleDNS8844 :  | Ping: 20 ms
+  Quad9DNS9999 :  | Ping: 30 ms
+  DBDGameliftUSEast1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 128 ms
+  UNKNOWN : HTTP:ERROR | Ping: Timeout
+  DBDGameliftUSWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 234 ms
+  DBDGameliftUSWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 220 ms
+  DBDGameliftEUWest1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 56 ms
+  DBDGameliftEUCentral1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftEUWest2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 46 ms
+  DBDGameliftAPSouth1 : HTTP:OK    TLS1.2:OK    TLS1.3:ERROR | Ping: Timeout
+  DBDGameliftAPNE2 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 246 ms
+  DBDGameliftAPNE1 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 942 ms
+  DBDGameliftAPSE1 : HTTP:OK    TLS1.2:OK    TLS1.3:OK    | Ping: 529 ms
+  DBDGameliftAPSE2 : HTTP:ERROR TLS1.2:ERROR TLS1.3:ERROR | Ping: 280 ms
+  DBDGameliftSAEast1 : HTTP:OK    TLS1.2:ERROR TLS1.3:OK    | Ping: 912 ms
+
+=== ANALYTICS ===
+general (ALT11).bat              : HTTP OK:  48, ERR:  27, UNSUP:   0, Ping OK:  28, Fail:   2
+general (ALT3).bat               : HTTP OK:  50, ERR:  23, UNSUP:   0, Ping OK:  26, Fail:   4
+general (FAKE TLS AUTO).bat      : HTTP OK:  47, ERR:  26, UNSUP:   0, Ping OK:  29, Fail:   1
+general (ALT6).bat               : HTTP OK:  32, ERR:  41, UNSUP:   0, Ping OK:  26, Fail:   4
+general (ALT5).bat               : HTTP OK:  59, ERR:  14, UNSUP:   0, Ping OK:  27, Fail:   3
+general (SIMPLE FAKE ALT).bat    : HTTP OK:  61, ERR:  12, UNSUP:   0, Ping OK:  29, Fail:   1
+general (FAKE TLS AUTO ALT3).bat : HTTP OK:  53, ERR:  20, UNSUP:   0, Ping OK:  26, Fail:   4
+general (ALT10).bat              : HTTP OK:  63, ERR:  12, UNSUP:   0, Ping OK:  29, Fail:   1
+general (FAKE TLS AUTO ALT).bat  : HTTP OK:  30, ERR:  41, UNSUP:   0, Ping OK:  25, Fail:   5
+general.bat                      : HTTP OK:  31, ERR:  40, UNSUP:   0, Ping OK:  26, Fail:   4
+general (ALT7).bat               : HTTP OK:  43, ERR:  28, UNSUP:   0, Ping OK:  27, Fail:   3
+general (ALT4).bat               : HTTP OK:  59, ERR:  12, UNSUP:   0, Ping OK:  28, Fail:   2
+general (FAKE TLS AUTO ALT2).bat : HTTP OK:  30, ERR:  41, UNSUP:   0, Ping OK:  25, Fail:   5
+general (ALT2).bat               : HTTP OK:  33, ERR:  38, UNSUP:   0, Ping OK:  24, Fail:   6
+general (ALT8).bat               : HTTP OK:  28, ERR:  43, UNSUP:   0, Ping OK:  25, Fail:   5
+general (ALT12).bat              : HTTP OK:  55, ERR:  18, UNSUP:   0, Ping OK:  26, Fail:   4
+general (ALT9).bat               : HTTP OK:  67, ERR:   6, UNSUP:   0, Ping OK:  28, Fail:   2
+general (ALT).bat                : HTTP OK:  70, ERR:   5, UNSUP:   0, Ping OK:  28, Fail:   2
+general (SIMPLE FAKE).bat        : HTTP OK:  64, ERR:   9, UNSUP:   0, Ping OK:  27, Fail:   3
+general (SIMPLE FAKE ALT2).bat   : HTTP OK:  62, ERR:  11, UNSUP:   0, Ping OK:  28, Fail:   2
+Best strategy: general (ALT).bat
